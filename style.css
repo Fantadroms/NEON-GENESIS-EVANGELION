@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: transparent;
+    background: radial-gradient(transparent, black), url("images/background.png");
+    background-attachment: fixed;
+    margin: 10px 30px 10px 30px;
+    font-family: monospace;
+    font-weight: bold;
+    color: lawngreen;
+}
+
+a {
+    color: coral;
+}
