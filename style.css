@@ -16,3 +16,29 @@ body {
 a {
     color: coral;
 }
+
+h2 {
+    color: purple;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    width: 250px;
+}
+
+.updates p::before {
+    content: "> ";
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px dotted grey;
+    padding: 4px 10px;
+}
