@@ -1,3 +1,10 @@
+.inter-rei {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,25 +12,34 @@
 }
 
 body {
-    max-width: 800px;
+    max-width: 500px;
     background-color: #111111;
-    background: radial-gradient(transparent, black), url("images/background.png");
     background-attachment: fixed;
-    margin: 10px 30px 10px 30px;
-    font-family: monospace;
-    font-size: 1rem;
-    color: silver;
+    margin: 30px 30px 30px 30px;
+    font: 80%/1.6 "Inter";
+    color: #fff;
+}
+
+h1,
+h2 {
+    font-size: inherit;
+    color: #AAAAAA;
+    margin: 2rem 0 1rem 0;
+}
+
+h6 {
+    font-size: inherit;
+    margin: 2rem 0 1rem 0;
 }
 
 a {
-    color: lawngreen;
-}
-
-a:visited {
-    color: maroon;
-    text-decoration-color: maroon;
+    color: #fff;
 }
 
 li {
     list-style: none;
+}
+
+#statuscafe-username {
+    display: none;
 }
