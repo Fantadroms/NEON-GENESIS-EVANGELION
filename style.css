@@ -16,7 +16,7 @@ body {
     background-color: #111111;
     background-attachment: fixed;
     margin: 30px 30px 30px 30px;
-    font: 80%/1.6 "Inter";
+    font: 80%/1.6 "Inter", sans-serif;
     color: #fff;
 }
 
@@ -42,4 +42,14 @@ li {
 
 #statuscafe-username {
     display: none;
+}
+
+#my-movie-list li {
+    padding-left: 20px;
+    color: #AAAAAA;
+}
+
+details {
+    width: fit-content;
+    cursor: pointer;
 }
