@@ -15,8 +15,8 @@ body {
     max-width: 500px;
     background-color: #111111;
     background-attachment: fixed;
-    margin: 30px 30px 30px 30px;
-    font: 80%/1.6 "Inter";
+    margin: 40px;
+    font: 80%/1.6 "Inter", sans-serif;
     color: #fff;
 }
 
@@ -42,4 +42,28 @@ li {
 
 #statuscafe-username {
     display: none;
+}
+
+header p::after {
+    content: "|";
+    font-family: monospace;
+    animation: spin 1s steps(1) infinite;
+}
+
+@keyframes spin {
+    0% {
+        content: "[|]"
+    }
+
+    25% {
+        content: "[/]"
+    }
+
+    50% {
+        content: "[-]"
+    }
+
+    75% {
+        content: "[\\]"
+    }
 }
