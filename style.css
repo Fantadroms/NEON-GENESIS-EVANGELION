@@ -24,7 +24,7 @@ h1,
 h2 {
     font-size: inherit;
     color: #AAAAAA;
-    margin: 2rem 0 1rem 0;
+    margin-block: 2rem 1rem;
 }
 
 h6 {
@@ -34,6 +34,7 @@ h6 {
 
 a {
     color: #fff;
+    text-underline-offset: 4px;
 }
 
 li {
@@ -44,10 +45,29 @@ li {
     display: none;
 }
 
+#screenshots {
+    margin: 40px auto;
+}
+
+#screenshots img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    margin-block: 1rem 0;
+}
+
 header p::after {
     content: "|";
     font-family: monospace;
     animation: spin 1s steps(1) infinite;
+}
+
+nav {
+    margin-block: 1rem 0;
+}
+
+nav a {
+    color: #AAAAAA;
 }
 
 @keyframes spin {
@@ -65,5 +85,15 @@ header p::after {
 
     75% {
         content: "[\\]"
+    }
+}
+
+@media screen and (width < 1000px) {
+    body {
+        margin: 16px;
+    }
+
+    #screenshots {
+        margin: 16px;
     }
 }
